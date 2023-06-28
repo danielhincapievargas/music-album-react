@@ -6,6 +6,7 @@
     height: 203px;
     width: 468px;
     box-shadow: 7px 2px 16px -4px rgba(0,0,0,0.75);
+    margin: 20px;
 }
 
 .card__img {
@@ -20,6 +21,7 @@
 }
 
 .card__song {
+    font-size: 24px;
     margin: 0;
     margin-top: 30px;
     text-align: left;

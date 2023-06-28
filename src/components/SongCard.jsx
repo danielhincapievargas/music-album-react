@@ -2,18 +2,8 @@ import './SongCard.css'
 import { useState } from 'react'
 
 
-const song1 = {
-    "id": "1",
-    "name": "Billie Jean",
-    "artist": "Michael Jackson",
-    "album": "Thriller",
-    "year": "1982",
-    "liked": "false",
-    "genre": "Pop",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
-}
-const SongCard = () => {
-    const { id, name, artist, album, year, liked, genre, cover_url } = song1;
+const SongCard = (song) => {
+    const { id, name, artist, album, year, liked, genre, cover_url } = song;
 
     const [like, setlike] = useState(liked);
 
