@@ -1,6 +1,6 @@
 # Make It Real - Music Album
 
-This is a solution to the _______ project of the Make It Real course.
+This is a solution to the React Music Album project of the Make It Real course.
 
 ## Table of contents
 
@@ -24,7 +24,9 @@ Build a React.js card for a music album that can be liked.
 
 ### Screenshot
 
-![](./public/screenshot.png)
+
+![](./public/screenshot01.png)
+![](./public/screenshot02.png)
 
 
 ## My process
@@ -56,7 +58,9 @@ const [like, setlike] = useState(liked);
 
 ### Continued development
 
-The next step would be to map through the objects in the songs array and render multiple cards.
+First step: Single Card
+
+Second step: Render multiple cards.
 
 ## Author
 
